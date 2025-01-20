@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="Test.DemoTest">
+				<parameter name="URL" value="demo1.com"></parameter>
+				<parameter name="username" value="aish"></parameter>
+			</class>
+
+			<class name="Test.DemoTest2">
+				<parameter name="URL" value="demo2.com"></parameter>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+<!-- 
+	Here we can give parameters on suite level, test level, classes level or each
+class level as well
+-->
+
+
+

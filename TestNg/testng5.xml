@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="demo.com"></parameter>
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Smoke">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="Test.DemoTest"></class>
+			<class name="Test.DemoTest2"></class>
+			<class name="Test.DemoTest3"></class>
+			<class name="Test.DemoTest4"></class>
+		</classes>
+	</test>
+</suite> 
+
+<!-- similar way we can use exclude, it will run all the cases excluding smoke tag cases in respective class-->
+
+
+

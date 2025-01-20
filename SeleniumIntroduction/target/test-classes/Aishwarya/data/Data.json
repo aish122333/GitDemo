@@ -1,0 +1,12 @@
+[
+	{
+		"email":"aish@gamil.com",
+		"password" : "Aishwarya@123",
+		"productName" : "Adidas Original"
+	},
+	{
+		"email":"aish2@gmail.com",
+		"password" : "Aishwarya@1234",
+		"productName" : "Adidas Original"
+	}
+]
